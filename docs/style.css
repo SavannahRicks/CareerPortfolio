@@ -1,0 +1,37 @@
+body {
+    background-color: #e6ccff;
+    font-family: 'Varela Round';
+    margin: 0;
+}
+
+.homeTitle {
+    background: #ce99ff;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeTitle h1 {
+    font-size: 4em;
+    text-align: center;
+}
+.homeBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeContent {
+    background-color: #ffffff;
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
