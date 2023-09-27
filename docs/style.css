@@ -51,6 +51,11 @@ h2 {
     display: flex;
 }
 section.twoCol > div {margin: 10px;}
+@media (max-width: 800px) {
+  .twoCol {
+    flex-direction: column;
+  }
+}
 .button {
 
     justify-content: center;
