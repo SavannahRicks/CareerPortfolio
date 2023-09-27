@@ -2,6 +2,7 @@ body {
     background-color: #e6ccff;
     font-family: 'Varela Round';
     margin: 0;
+    
 }
 
 .homeTitle {
@@ -29,40 +30,46 @@ body {
     background-color: #ffffff;
     box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
     width: 75vw;
-    height:100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-width: 400px;
+
 }
 
 h1 {
     margin: 0;
 }
 .button {
-    margin: 10px;
+    
     justify-content: center;
     align-items: center;
 }
-.button a:link, a:visited {
-  
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+a:link,
+a:visited {
+
+    background-color: #80ccff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
 }
 
-.button a:hover, a:active {
-  background-color: red;
+a:hover,
+a:active {
+    background-color: #33adff;
 }
 
-.button p {
+p {
     text-align: center;
 }
-
-
+.homeContent div{
+flex-direction: column;
+display: flex;align-items: center;margin-left: auto;
+    margin-right:auto;}
 
 
 
