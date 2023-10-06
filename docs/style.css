@@ -148,8 +148,25 @@ p {
 .cent {
     min-width: 320px;
 }
-.cent div > div {padding: 0 20px;}
+.cent div > div {padding: 0 20px;
 
+}
+
+#row0 {
+display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;}
+#row0 p {text-align: justify;max-width: 792px;}
+
+#row0-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
 #row2 {
     display: flex;
     flex-direction: row;
