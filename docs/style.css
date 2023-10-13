@@ -13,14 +13,20 @@ html {
 
 body {
     margin: 0;
+    height: 100vh;
 }
+
 
 
 #home {
+display: flex;
+flex-flow: column;
     position: relative;
     max-width: 100vw;
+    height: 100vh;
 }
-
+#home div {position: relative;
+}
 
 .homeTitle {
     z-index: 1;
@@ -38,16 +44,19 @@ body {
 
 /* Purple Shape */
 #shape {
-    z-index: 1;
-    position: absolute;
-    top: 8vh;
-    padding: 0 0rem 0 0rem;
-    height: 90vh;
-    max-width: 100vw;
-    min-width: 320px;
-    width: 100%;
-    overflow: hidden;
-    background: #e6ccff;
+    position: relative;
+  padding: 0px;
+  
+}
+#shape:after {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 600px;
+  background: #e6ccff;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 @media (max-width : 300px) {
     #shape {
@@ -73,6 +82,7 @@ h3 {
 
 /* flex conatiner */
 #row1 {
+z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -239,8 +249,8 @@ display: flex;
     max-width: 35px;
     margin: 5px;
 }
-a:link,
-a:visited {
+.reg:link,
+.reg:visited {
 
     padding: 14px 25px;
     text-align: center;
@@ -249,10 +259,8 @@ a:visited {
     border-radius: 15px;
     margin: 5px;
 }
-
-
-a:hover,
-a:active {
+.reg:hover,
+.reg:active {
     background-color: #e6ccff;
 }
 
@@ -276,6 +284,10 @@ a:active {
         margin: -75px 0 0 -100px;
     }
 
+footer {background-color: #e6ccff;
+padding: 30px 10px;
+}
+footer p {margin:0}
 
 
 
