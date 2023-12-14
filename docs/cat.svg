@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  href="style.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+
+    <g>
+        <ellipse cx="150" cy="80" rx="80" ry="60" style="stroke:purple;stroke-width:0" fill="#4d4d4d"/>
+        <circle class="eyes" cx="120" cy="70" r="10" fill="#D1CAA1"/>
+        <circle class="eyes" cx="180" cy="70" r="10" fill="#D1CAA1"/>
+        <polygon class="nose" points="150,100 140,85 160,85" fill="#eac7dd"/>
+        <polygon points="100,10 80,55 140,35" style="stroke-color:black;stroke:2;" fill="#4d4d4d"/>
+        <polygon points="200,10 222,55 175,35" style="stroke-color:black;stroke:2;" fill="#4d4d4d"/>
+        <rect id="lid1" x="105" y="30" width="30" height="30" style="stroke-width:0;stroke:black" fill="#4d4d4d"/>
+        <rect id="lid2" x="165" y="30" width="30" height="30" style="stroke-width:0;stroke:black" fill="#4d4d4d"/>
+
+    </g>
+</svg>

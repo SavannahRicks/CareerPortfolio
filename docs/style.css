@@ -263,6 +263,15 @@ display: flex;
 .reg:active {
     background-color: #e6ccff;
 }
+.linkreg {
+
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 5px;
+}
 
 
 
@@ -290,7 +299,26 @@ padding: 30px 10px;
 footer p {margin:0}
 
 
+/*SVG****************************************************/
 
 
+g #lid1, #lid2 {transition: all 1s ease;}
+g:hover #lid1 {
+    transition: all 1s ease;
+    transform: translate(0%, 10%)
+}
+
+g:hover #lid2 {
+    transition: all 1s ease;
+    transform: translate(0%, 10%)
+}
+
+
+
+g .flip {transition: all 1s ease;}
+g:hover .flip {
+
+    transform: translate(0%, -10%)
+}
 
 
