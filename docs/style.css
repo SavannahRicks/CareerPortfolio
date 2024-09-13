@@ -252,7 +252,8 @@ iframe{
     max-width: 50%;
     float: right;
     margin-left: 1rem;
-    height: auto;
+    /*height: auto;*/
+    aspect-ratio: 1;
 }
 .projFlex{
     display: flex;
@@ -264,12 +265,13 @@ iframe{
 }
 #faceimgProj{
     width: 50%;
-    height: auto;
+    /*height: auto;*/
     max-width: 330px;
     border-radius: 50%;
     shape-outside: circle(40% at 50% 50%);
     clip-path: circle(50% at 50%);
     margin-left: 4rem;
+    aspect-ratio: 1;
 }
 @media screen and (min-width: 1460px){
     .proj{
