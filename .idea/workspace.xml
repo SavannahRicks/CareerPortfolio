@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00fb1e48-e885-497d-85dd-1e5c931d9c29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/notes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/svgExperiment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bojackPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/firstPortfolioPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/githubIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/haywardPic.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/inscurancePic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mailIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mitfordPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/myPhoto.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/resume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/savan/Documents/github/main-portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/savan/Documents/github/CrackedonCrochet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +78,31 @@
       <updated>1701896600841</updated>
       <workItem from="1701896601910" duration="627000" />
       <workItem from="1702506862253" duration="11910000" />
+      <workItem from="1721066688532" duration="13000" />
+      <workItem from="1724176601083" duration="28000" />
+      <workItem from="1724679140807" duration="958000" />
+      <workItem from="1724684631096" duration="180000" />
+      <workItem from="1724698022337" duration="1846000" />
+      <workItem from="1724769858489" duration="9654000" />
+      <workItem from="1724785391970" duration="9914000" />
+      <workItem from="1724846242413" duration="1783000" />
+      <workItem from="1724964860436" duration="8000000" />
+      <workItem from="1725052963936" duration="4398000" />
+      <workItem from="1725137303159" duration="5585000" />
+      <workItem from="1725222290455" duration="1220000" />
+      <workItem from="1725316256568" duration="6972000" />
+      <workItem from="1725386997678" duration="2164000" />
+      <workItem from="1725397287555" duration="4587000" />
+      <workItem from="1725451826327" duration="7056000" />
+      <workItem from="1725484382404" duration="597000" />
+      <workItem from="1725545353030" duration="4986000" />
+      <workItem from="1725657359962" duration="2207000" />
+      <workItem from="1725826970558" duration="7333000" />
+      <workItem from="1725887916719" duration="4175000" />
+      <workItem from="1725918408353" duration="5016000" />
+      <workItem from="1725978258290" duration="25000" />
+      <workItem from="1726056553362" duration="11491000" />
+      <workItem from="1726166627019" duration="2329000" />
     </task>
     <servers />
   </component>
