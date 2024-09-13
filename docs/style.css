@@ -67,6 +67,9 @@ body {
     width: 70vw;
     margin: 6rem auto;
 }
+#notesPage {
+    margin: 6rem auto;
+}
 h1 {
     text-align: center;
     position: relative;
@@ -218,7 +221,7 @@ iframe{
     width: 500px;
     height: 200vh;
     display:block;
-    margin: 8rem auto;
+    margin: 4rem auto;
 }
 .proj {
     padding: 2rem;
@@ -234,11 +237,22 @@ iframe{
 .proj p {
     text-align: justify;
 }
+.proj a{
+    text-decoration: none;
+    padding: 0;
+
+}
+.proj a:hover{
+    text-decoration: underline;
+    /*transition: all ease 0.5s;*/
+}
+
 .proj img {
     border-radius: 10px;
     max-width: 50%;
     float: right;
     margin-left: 1rem;
+    height: auto;
 }
 .projFlex{
     display: flex;
@@ -250,7 +264,7 @@ iframe{
 }
 #faceimgProj{
     width: 50%;
-    /*height: 100%;*/
+    height: auto;
     max-width: 330px;
     border-radius: 50%;
     shape-outside: circle(40% at 50% 50%);
@@ -444,6 +458,9 @@ text-decoration: none;
     display: flex;
     flex-direction: row;
 }
+#footCont div:first-child a{
+    padding: 0;
+}
 
 /*SVG****************************************************/
 g #lid1, #lid2 {transition: all 1s ease;}
@@ -502,7 +519,7 @@ g:hover .flip {
         width: 100%;
         margin: 0;
     }
-    iframe {
+    iframe, #notesIFRAME{
         width: 100%;
     }
 }
@@ -557,7 +574,7 @@ g:hover .flip {
     p {
         text-align: justify;
     }
-    iframe {
+    iframe, #notesIFRAME {
         width: 110%;
     }
     footer {

@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00fb1e48-e885-497d-85dd-1e5c931d9c29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/notes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/svgExperiment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/bojackPic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/email.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/firstPortfolioPic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/githubIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/haywardPic.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/inscurancePic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mailIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mitfordPic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/myPhoto.JPEG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/resume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +88,7 @@
       <workItem from="1725918408353" duration="5016000" />
       <workItem from="1725978258290" duration="25000" />
       <workItem from="1726056553362" duration="11491000" />
-      <workItem from="1726166627019" duration="2329000" />
+      <workItem from="1726166627019" duration="4803000" />
     </task>
     <servers />
   </component>
