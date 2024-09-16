@@ -274,12 +274,20 @@ iframe{
 /*     aspect-ratio: 1; */
 }
 @media screen and (min-width: 590px){
-    #faceimgProj{
+    #faceimgProj {
     max-width: 50%;
     border-radius: 50%;
     shape-outside: circle(40% at 50% 50%);
     clip-path: circle(50% at 50%);
     margin-left: 0;
+    }
+    .proj img {
+    border-radius: 10px;
+    width: 50%;
+    float: right;
+    margin-left: 1rem;
+    height: auto; 
+    /*aspect-ratio: 1; */
     }
 }
 @media screen and (min-width: 1460px){
