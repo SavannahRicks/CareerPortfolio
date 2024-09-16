@@ -273,7 +273,7 @@ iframe{
 /*     margin-left: 4rem; */
 /*     aspect-ratio: 1; */
 }
-@media screen and (min-width: 590px){
+@media screen and (min-width: 425px){
     #faceimgProj {
     max-width: 50%;
     border-radius: 50%;
