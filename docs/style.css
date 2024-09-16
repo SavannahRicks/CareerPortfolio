@@ -248,11 +248,11 @@ iframe{
 }
 
 .proj img {
-    border-radius: 10px;
-    max-width: 50%;
-    float: right;
-    margin-left: 1rem;
-    height: auto; 
+/*     border-radius: 10px; */
+    width: 50%;
+/*     float: right; */
+/*     margin-left: 1rem; */
+/*     height: auto;  */
     /*aspect-ratio: 1; */
 }
 .projFlex{
