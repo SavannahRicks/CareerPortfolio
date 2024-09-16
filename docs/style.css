@@ -266,16 +266,16 @@ iframe{
 #faceimgProj{ /*inactive while experimenting*/
 /*     width: 50%;
     /*height: auto;*/
-    max-width: 330px;
-    border-radius: 50%;
-    shape-outside: circle(40% at 50% 50%);
-    clip-path: circle(50% at 50%);
-    margin-left: 4rem;
+/*     max-width: 330px; */
+/*     border-radius: 50%; */
+/*     shape-outside: circle(40% at 50% 50%); */
+/*     clip-path: circle(50% at 50%); */
+/*     margin-left: 4rem; */
 /*     aspect-ratio: 1; */
 }
 @media screen and (min-width: 590px){
     #faceimgProj{
-         max-width: none;
+    max-width: none;
     border-radius: 50%;
     shape-outside: circle(40% at 50% 50%);
     clip-path: circle(50% at 50%);
