@@ -252,7 +252,7 @@ iframe{
     width: 50%;
 /*     float: right; */
 /*     margin-left: 1rem; */
-    height: 3em; 
+    height: auto; 
     /*aspect-ratio: 1; */
 }
 .projFlex{
@@ -271,7 +271,16 @@ iframe{
     shape-outside: circle(40% at 50% 50%);
     clip-path: circle(50% at 50%);
     margin-left: 4rem;
-    aspect-ratio: 1; */
+/*     aspect-ratio: 1; */
+}
+@media screen and (min-width: 590px){
+    #faceimgProj{
+         max-width: none;
+    border-radius: 50%;
+    shape-outside: circle(40% at 50% 50%);
+    clip-path: circle(50% at 50%);
+    margin-left: 0;
+    }
 }
 @media screen and (min-width: 1460px){
     .proj{
@@ -303,11 +312,11 @@ iframe{
         margin: 0 auto;
     }
 }
-/*@media screen and (min-width: 2000px){*/
-/*    .proj{*/
-/*        max-width: 1000px;*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 2000px){
+/*    .proj{
+       max-width: 1000px;
+   }
+} */
 .links {
     display: flex;
     align-items: center;
