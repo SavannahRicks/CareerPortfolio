@@ -563,8 +563,8 @@ g:hover .flip {
         height: auto; */
     }
     #faceimgProj {
-        margin: 0;
-        width: 80%;
+/*         margin: 0;
+        width: 80%; */
     }
 }
 @media screen and (max-width: 400px){
