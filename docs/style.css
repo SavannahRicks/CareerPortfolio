@@ -560,6 +560,7 @@ g:hover .flip {
         align-self: center;
         min-width: 100%;
         margin: 1rem 0;
+        height: auto;
     }
     #faceimgProj {
         margin: 0;
