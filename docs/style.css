@@ -248,11 +248,11 @@ iframe{
 }
 
 .proj img {
-    border-radius: 10px;
+/*     border-radius: 10px;
     max-width: 50%;
     float: right;
     margin-left: 1rem;
-    height: auto;
+    height: auto; */
     /*aspect-ratio: 1;*/
 }
 .projFlex{
@@ -557,10 +557,10 @@ g:hover .flip {
         flex-direction: column;
     }
     .proj img {
-        align-self: center;
+/*         align-self: center;
         min-width: 100%;
         margin: 1rem 0;
-        height: auto;
+        height: auto; */
     }
     #faceimgProj {
         margin: 0;
