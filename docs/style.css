@@ -264,14 +264,14 @@ iframe{
     height: fit-content;
 }
 #faceimgProj{
-    width: 50%;
+/*     width: 50%;
     /*height: auto;*/
     max-width: 330px;
     border-radius: 50%;
     shape-outside: circle(40% at 50% 50%);
     clip-path: circle(50% at 50%);
     margin-left: 4rem;
-    aspect-ratio: 1;
+    aspect-ratio: 1; */
 }
 @media screen and (min-width: 1460px){
     .proj{
