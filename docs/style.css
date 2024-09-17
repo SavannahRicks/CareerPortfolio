@@ -70,6 +70,9 @@ body {
 #notesPage {
     margin: 6rem auto;
 }
+#notesPage p{
+    text-align: center;
+}
 h1 {
     text-align: center;
     position: relative;
