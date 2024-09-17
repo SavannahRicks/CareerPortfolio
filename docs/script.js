@@ -52,33 +52,43 @@ function Menubar() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
+    const isHoverableDevice = window.matchMedia('(hover: hover) and (pointer: fine)');
+    console.log(isHoverableDevice);
     let scrollTimeout;
     let prevScrollPos = window.scrollY; //positionY before scroll
-    console.log(`Before: ${prevScrollPos}`);
-
+    // console.log(`Before: ${prevScrollPos}`);
     const menu = document.getElementById("navCont");
-    window.addEventListener("scroll", function () {
-        clearTimeout(scrollTimeout);
-        scrollTimeout = setTimeout(function () {
-            const currentScrollPos = window.scrollY;//positionY after scroll
-            console.log(`After: ${currentScrollPos}`);
 
-            if (currentScrollPos > prevScrollPos) {
-                menu.style.transform = "translateY(-100%)";//retract
-            } else {
-                menu.style.transform = "translateY(0)";//stay
-            }
+    if(isHoverableDevice.matches === false) {
+        menu.classList.add("stick");
+        menu.style.padding = "0";
 
-            if (currentScrollPos > 0) {
-                menu.classList.add("scrolled");
-            } else {
-                menu.classList.remove("scrolled");
-            }
-            prevScrollPos = currentScrollPos;
+    }
+    else{
 
-        }, 15);
+        window.addEventListener("scroll", function () {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(function () {
+                const currentScrollPos = window.scrollY;//positionY after scroll
+                console.log(`After: ${currentScrollPos}`);
 
-    });
+                if (currentScrollPos > prevScrollPos) {
+                    menu.style.transform = "translateY(-100%)";//retract
+                } else {
+                    menu.style.transform = "translateY(0)";//stay
+                }
+
+                if (currentScrollPos > 0) {
+                    menu.classList.add("scrolled");
+                } else {
+                    menu.classList.remove("scrolled");
+                }
+                prevScrollPos = currentScrollPos;
+
+            }, 15);
+
+        });
+    }
 
     let mybutton = document.getElementById("navCont");
     // window.onscroll = function () {

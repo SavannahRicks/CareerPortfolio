@@ -121,6 +121,10 @@ h2 span {
     transition: all ease 0.5s;
 
 }
+.stick {
+    background: rgba(230, 204, 255, 0.5);
+    /*padding: 0;*/
+}
 #icon {
     display: none;
 }
@@ -212,16 +216,26 @@ p {
  }
 iframe{
     scrollbar-color:transparent transparent;
+    margin: 0;
+
+}
+#frame {
+    border: 2px solid #A36BD8;
+    width: fit-content;
+    margin: 0 auto;
 }
 #iframeCont{
     display: block;
     margin: 0 auto;
 }
-#notesIFRAME {
+#frame #notesIFRAME {
     width: 500px;
     height: 200vh;
     display:block;
-    margin: 4rem auto;
+    /*margin: 4rem auto;*/
+}
+#notesPage #frame {
+
 }
 .proj {
     padding: 2rem;
@@ -235,7 +249,7 @@ iframe{
     margin: 0;
 }
 .proj p {
-    text-align: justify;
+    text-align: left;
 }
 .proj a{
     text-decoration: none;
@@ -246,15 +260,6 @@ iframe{
     text-decoration: underline;
     /*transition: all ease 0.5s;*/
 }
-
-.proj img {
-/*     border-radius: 10px; */
-/*     width: 50%; */
-/*     float: right; */
-/*     margin-left: 1rem; */
-/*     height: auto;  */
-    /*aspect-ratio: 1; */
-}
 .projFlex{
     display: flex;
     flex-direction: row;
@@ -262,16 +267,6 @@ iframe{
 .projFlex *{
     width: 50%;
     height: fit-content;
-}
-#faceimgProj{ /*inactive while experimenting*/
-/*     width: 50%;
-    /*height: auto;*/
-/*     max-width: 330px; */
-/*     border-radius: 50%; */
-/*     shape-outside: circle(40% at 50% 50%); */
-/*     clip-path: circle(50% at 50%); */
-/*     margin-left: 4rem; */
-/*     aspect-ratio: 1; */
 }
 @media screen and (min-width: 425px){
     #faceimgProj {
@@ -538,7 +533,7 @@ g:hover .flip {
         width: 100%;
         margin: 0;
     }
-    iframe, #notesIFRAME{
+    iframe, #notesIFRAME, #frame, #frame #notesIFRAME{
         width: 100%;
     }
 }
@@ -594,14 +589,20 @@ g:hover .flip {
     p {
         text-align: justify;
     }
-    iframe, #notesIFRAME {
-        width: 110%;
-    }
     footer {
         padding: 1rem;
     }
 }
-
+@media screen and (max-height: 570px){
+    #navCont > * {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-height: 380px){
+    #navCont > * {
+        font-size: 1.3rem;
+    }
+}
 circle {
     transition: all 0.5s ease;
 }
