@@ -496,7 +496,7 @@ g:hover .flip {
         max-width: 50%;
     }
     .proj{
-        min-height: 350px;
+        min-height: 380px;
     }
 }
 @media screen and (min-width: 1600px){
