@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/savan/Documents/github/CrackedonCrochet&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/savan/Documents/github/CrochetProj/CrochetGuru&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,7 +90,10 @@
       <workItem from="1726166627019" duration="6038000" />
       <workItem from="1726252573476" duration="600000" />
       <workItem from="1726489166718" duration="3460000" />
-      <workItem from="1726575558599" duration="822000" />
+      <workItem from="1726575558599" duration="2041000" />
+      <workItem from="1726602994429" duration="617000" />
+      <workItem from="1726844244735" duration="603000" />
+      <workItem from="1726852361888" duration="1021000" />
     </task>
     <servers />
   </component>
