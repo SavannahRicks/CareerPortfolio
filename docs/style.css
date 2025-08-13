@@ -310,9 +310,6 @@ iframe{
         max-width: 1650px;
         margin: 0 auto;
     }
-    footer {
-
-    }
     #footCont {
         max-width: 1650px;
         margin: 0 auto;
@@ -448,7 +445,7 @@ display: flex;
     margin: 0 auto 1rem auto;
 }
 footer {
-    display: flex;
+    /*display: flex;*/
     flex-direction: row;
     background-color: #A36BD8;
     padding: 2rem 3rem;
